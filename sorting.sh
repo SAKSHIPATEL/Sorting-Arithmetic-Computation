@@ -6,6 +6,8 @@ read -p "Enter the third number" c
 res1=$(($a+($b*$c)))
 res2=$(($a*($b+$c)))
 res3=$(($c+($a/$b)))
+res4=$(($a%($b+$c)))
 echo $res1
 echo $res2
 echo $res3
+echo $res4
