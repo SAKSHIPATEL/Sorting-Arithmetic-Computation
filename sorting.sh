@@ -11,3 +11,14 @@ echo $res1
 echo $res2
 echo $res3
 echo $res4
+
+declare -A array
+j=1
+for i in res0 res1 res2 res3
+do
+	array[$j]=$i
+	((j++)) 
+
+done
+echo ${array[@]}
+echo ${!array[@]}
