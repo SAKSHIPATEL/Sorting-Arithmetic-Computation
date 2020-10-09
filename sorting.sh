@@ -14,7 +14,7 @@ echo $res4
 
 declare -A array
 j=1
-for i in res0 res1 res2 res3
+for i in res1 res2 res4 res4
 do
 	array[$j]=$i
 	((j++)) 
