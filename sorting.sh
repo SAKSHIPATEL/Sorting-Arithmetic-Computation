@@ -22,3 +22,10 @@ do
 done
 echo ${array[@]}
 echo ${!array[@]}
+
+for ((i=0;i<=${#array[@]};i++))
+do
+	array1[$i]=${array[$i]}	
+
+done
+echo ${array1[@]}
